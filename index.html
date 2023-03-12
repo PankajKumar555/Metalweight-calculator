@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Weight Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator" >
+            <h2>Metal Weight Calculator</h2>
+            <div class="Material">
+                <p>Material :</p>
+                <select name="" id="" class="Material_">
+                    <option value="">Steel</option>
+                    <option value="">Aluminium</option>
+                    <option value="">Brass</option>
+                </select>
+            </div>
+            <div class="Shape">
+                <p>Shape :</p>
+                <select name="" id="" class="Shape_">
+                    <option value="">Round</option>
+                    <option value="">Square</option>
+                    <option value="">Ractangle</option>
+                </select>
+            </div>
+            <div class="Round_Image">
+            <img src="Round.jpg" alt="" class="Round_image">
+        </div>
+        <form action="" class="clear">
+            <div class="Diameter">
+                <p>Diameter :</p>
+                <input type="text"  id="Diameter" name="display" class="Diameter_">
+                <select name=""  class="Dim_type">
+                    <option value="">mm</option>
+                    <!-- <option value="">cm</option>
+                    <option value="">inch</option> -->
+                </select>
+            </div>
+            <div class="Length">
+                <p>Length :</p>
+                <input type="text" id="Length" name="display" class="Length_">
+                <select name=""  class="Dim_type">
+                    <option value="Lenght">mm</option>
+                    <!-- <option value="">cm</option>
+                    <option value="">inch</option> -->
+                </select>
+            </div>
+        </form>
+            <div class="button">
+                <button onclick="Weight()">Calculate</button>
+                <button onclick="clear()">Clear</button>
+            </div>
+            <div>
+                <h4>Results :</h4><br>
+            </div>
+            <div class="Results">
+                <h5 style="color: rgb(11, 11, 207)"><b>Calulated Weight :</b></h5>
+                <h5 id="Result" class="Result_"></h5>
+                <h5 style="margin-left: 10px;">Kgs</h5>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="index.js">
+    
+</script>
+
+</html>
